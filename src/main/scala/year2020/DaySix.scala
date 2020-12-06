@@ -14,8 +14,8 @@ object DaySix extends AOC2020(6){
   }
 
   override def partTwo: String = {
-    (input split "\n\n" map (s => {
-      s split "\n" reduce((a, b) => a.intersect(b)) length
-    }) sum) toString
+    (input split "\n\n" map {
+      _ split "\n" reduce{ _ intersect _ } length
+    } sum) toString
   }
 }
