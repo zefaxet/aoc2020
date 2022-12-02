@@ -1,5 +1,7 @@
 package year2020
 
+import scala.language.postfixOps
+
 object DayThree extends AOC2020(3) {
 
   def main(args: Array[String]): Unit = {

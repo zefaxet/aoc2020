@@ -3,6 +3,7 @@ package year2020
 import scala.collection.IterableOnce.iterableOnceExtensionMethods
 import scala.collection.immutable
 import scala.collection.immutable.TreeSet
+import scala.language.postfixOps
 import scala.util.control.Breaks.{break, breakable}
 
 object DayOne extends AOC2020(1) {

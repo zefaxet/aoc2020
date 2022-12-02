@@ -1,8 +1,8 @@
 package year2020
 
 import java.util
-
 import scala.collection.BitSet
+import scala.language.postfixOps
 import scala.util.matching.Regex
 
 object DayFive extends AOC2020(5) {

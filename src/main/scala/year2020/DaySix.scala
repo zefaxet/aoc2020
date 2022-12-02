@@ -1,5 +1,7 @@
 package year2020
 
+import scala.language.postfixOps
+
 object DaySix extends AOC2020(6){
   override protected var runAsTest: Boolean = false
   override protected var testInput: String = ""

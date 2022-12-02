@@ -1,5 +1,6 @@
 package year2020
 
+import scala.language.postfixOps
 import scala.util.matching.Regex
 
 object DayFour extends AOC2020(4) {
